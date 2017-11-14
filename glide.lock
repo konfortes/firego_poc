@@ -1,0 +1,136 @@
+hash: 20044ebcf1186d8cf30b3e8cad4f23a9a611ca6f8123f389a2e181d28bc5bbce
+updated: 2017-10-31T14:51:09.734694202+02:00
+imports:
+- name: cloud.google.com/go
+  version: eaddaf6dd7ee35fd3c2420c8d27478db176b0485
+  subpackages:
+  - compute/metadata
+  - firestore
+  - firestore/apiv1beta1
+  - internal/atomiccache
+  - internal/fields
+  - internal/version
+- name: github.com/astaxie/beego
+  version: d96289a81bf67728cff7a19b067aaecc65a62ec6
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/fatih/structs
+  version: a720dfa8df582c51dee1b36feabb906bde1588bd
+- name: github.com/golang/protobuf
+  version: 1643683e1b54a9e88ad26d98f81400c8c9d9f4f9
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/empty
+  - ptypes/struct
+  - ptypes/timestamp
+  - ptypes/wrappers
+- name: github.com/googleapis/gax-go
+  version: 317e0006254c44a0ac427cc52a0e083ff0b9622f
+- name: golang.org/x/net
+  version: c9b681d35165f1995d6f3034e61f8761d4b90c99
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/oauth2
+  version: bb50c06baba3d0c76f9d125c0719093e315b5b44
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/text
+  version: 470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/api
+  version: 672d215daf0631fcae4c08c2a4324a763aaaf789
+  subpackages:
+  - googleapi/transport
+  - internal
+  - iterator
+  - option
+  - transport
+  - transport/grpc
+  - transport/http
+- name: google.golang.org/appengine
+  version: a2e0dc829727a4f957a7428b1f322805cfc1f362
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/socket
+  - internal/urlfetch
+  - socket
+  - urlfetch
+- name: google.golang.org/genproto
+  version: f676e0f3ac6395ff1a529ae59a6670878a8371a6
+  subpackages:
+  - googleapis/api/annotations
+  - googleapis/firestore/v1beta1
+  - googleapis/rpc/status
+  - googleapis/type/latlng
+- name: google.golang.org/grpc
+  version: c91118c8fa0e1821c8fb860e15aaae5e6acb1add
+  subpackages:
+  - balancer
+  - balancer/roundrobin
+  - codes
+  - connectivity
+  - credentials
+  - credentials/oauth
+  - grpclb/grpc_lb_v1/messages
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+  - transport
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: a0a7cfed7b2a54080888fd2b3d4a3ec14562c86c
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: 77f18212c9c7edc9bd6a33d383a7b545ce62f064
+- name: github.com/smartystreets/assertions
+  version: 0b37b35ec7434b77e77a4bb29b79677cced992ea
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: 9e8dc3f972df6c8fcc0375ef492c24d0bb204857
+  subpackages:
+  - convey
+  - convey/gotest
+  - convey/reporting

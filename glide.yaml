@@ -1,0 +1,20 @@
+package: github.com/konfortes/firego_poc
+import:
+- package: github.com/astaxie/beego
+  version: v1.9.0
+  subpackages:
+  - context/param
+- package: cloud.google.com/go
+  version: ^0.15.0
+  subpackages:
+  - firestore
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/fatih/structs
+  version: ^1.0.0
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: 1.6.3
+  subpackages:
+  - convey
